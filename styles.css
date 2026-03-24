@@ -253,7 +253,7 @@ body {
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* FIXED 2 columns */
     gap: 1.5rem;
     margin-bottom: 4rem;
 }
@@ -264,6 +264,7 @@ body {
     border-radius: 0.75rem;
     padding: 1.5rem;
     transition: border-color 0.3s;
+    text-align: center; 
 }
 
 .skill-card:hover {
@@ -279,12 +280,25 @@ body {
     font-weight: 700;
     color: #fff;
     margin-bottom: 1rem;
+    display: flex;              
+    justify-content: center;    
+    align-items: center; 
+}
+.skill-card-wide {
+    grid-column: 1 / -1;   /* take full row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* center content */
+    justify-content: center;
+    max-width: 400px;      /* control width */
+    margin: 0 auto;        /* center box */
 }
 
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+      justify-content: center;
 }
 
 .tag {
