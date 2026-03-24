@@ -414,7 +414,10 @@ body {
 .resume-container {
     background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #3b0764 100%);
     border-radius: 16px;
-    padding: 3rem 2rem;
+    padding: 1.5rem;
+    max-width: 700px;  
+    margin: 0 auto;     
+
     border: 1px solid rgba(139, 92, 246, 0.3);
     text-align: center;
     box-shadow: 0 0 40px rgba(139, 92, 246, 0.2);
