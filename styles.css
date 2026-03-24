@@ -414,13 +414,17 @@ body {
 .resume-container {
     background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #3b0764 100%);
     border-radius: 16px;
-    padding: 1.5rem;
-    max-width: 600px;  
+    padding: 1.2rem;
+    max-width: 500px;  
     margin: 0 auto;     
 
     border: 1px solid rgba(139, 92, 246, 0.3);
     text-align: center;
     box-shadow: 0 0 40px rgba(139, 92, 246, 0.2);
+}
+#resume .container {
+    display: flex;
+    justify-content: center;
 }
 
 .resume-preview {
@@ -431,7 +435,7 @@ body {
 
 .resume-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 10px;
     background: #fff;
     padding: 10px;
