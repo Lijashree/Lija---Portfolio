@@ -424,8 +424,7 @@ body {
     margin-bottom: 2rem;
     border-radius: 0.75rem;
     overflow: hidden;
-    background: #fff;
-    box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.3);
+    background: transparent;  
 }
 
 .resume-image {
